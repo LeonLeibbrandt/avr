@@ -1,0 +1,2 @@
+/usr/bin/avr-ar qc libssd1306-atmega328.a  CMakeFiles/ssd1306-atmega328.dir/ssd1306.cpp.obj
+/usr/bin/avr-ranlib libssd1306-atmega328.a

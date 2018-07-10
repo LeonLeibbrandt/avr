@@ -1,0 +1,2 @@
+/usr/bin/avr-ar qc liboled_i2c-atmega328p.a  CMakeFiles/oled_i2c-atmega328p.dir/oled_i2c.cpp.obj
+/usr/bin/avr-ranlib liboled_i2c-atmega328p.a

@@ -1,0 +1,1 @@
+/usr/bin/avr-g++  -Os  -mmcu=atmega328 -Wl,--gc-sections -mrelax -Wl,-Map,ssdmain-atmega328.map CMakeFiles/ssdmain-atmega328.elf.dir/main.cpp.obj  -o ssdmain-atmega328.elf ../lib/ssd1306/libssd1306-atmega328.a ../lib/twi_master/libtwi_master-atmega328.a 

@@ -1,0 +1,1 @@
+/usr/bin/avr-g++  -Os  -mmcu=atmega328p -Wl,--gc-sections -mrelax -Wl,-Map,oledviewfont-atmega328p.map CMakeFiles/oledviewfont-atmega328p.elf.dir/oled_i2c_viewfont.cpp.obj  -o oledviewfont-atmega328p.elf ../lib/oled_i2c/liboled_i2c-atmega328p.a 

@@ -1,0 +1,2 @@
+/usr/bin/avr-ar qc libtwi_master-atmega328.a  CMakeFiles/twi_master-atmega328.dir/twi_master.cpp.obj
+/usr/bin/avr-ranlib libtwi_master-atmega328.a

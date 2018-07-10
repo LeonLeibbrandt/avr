@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/oled_i2c/hw_avr.hpp
+avr/io.h
+-
+compat/twi.h
+-
+
+../lib/oled_i2c/hw_avr_defines.hpp
+
+../lib/oled_i2c/oled_i2c.hpp
+inttypes.h
+-
+hw_avr_defines.hpp
+-
+
+/home/leon/Projects/avr/app/oled_viewfont/lib/oled_i2c/oled_i2c.cpp
+oled_i2c.hpp
+-
+avr/pgmspace.h
+-
+stdlib.h
+-
+string.h
+-
+hw_avr.hpp
+-
+

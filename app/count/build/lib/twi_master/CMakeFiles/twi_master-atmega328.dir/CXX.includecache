@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/twi_master/twi_master.hpp
+inttypes.h
+-
+
+/home/leon/Projects/avr/app/count/lib/twi_master/twi_master.cpp
+twi_master.hpp
+-
+avr/io.h
+-
+compat/twi.h
+-
+
